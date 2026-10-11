@@ -147,3 +147,20 @@ section h2 {
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
+
+@media (max-width: 600px) {
+  .container {
+    margin: 0;
+    padding: 24px;
+    border-radius: 0;
+  }
+
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contato {
+    justify-content: ce
+  }
+}
